@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      position: relative;
+      height: calc(99vw / 1.8);
+    }
+
+
+    .header_bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header" style="height: 800px;">
+    <img class="header_bg" src="./images/desktop/image-header.jpg" alt="">
+
+    <a id="logo_link">
+      <img class="logo" src="./images/logo.svg">
+    </a>
+    <div style="padding: 15px;">
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <span style="margin: auto 35px;">
+          <button href="#">CONTACT</button>
+        </span>
+      </nav>
+    </div>
+    <h1>WE ARE CREATIVES</h1>
+    <div id="arrow">
+
+      <img style="display: block;  margin-left: 50%;
+        margin-right: 50%; height: 10fr; margin-top: 80%;" src="./images/icon-arrow-down.svg">
+
+    </div>
+  </header>
+  <main style="">
+    <section>
+      <div id="letras">
+        <div id="nb" style="grid-column: 2/3; grid-row: 2/3;">
+          <h2>
+            Transform your brand
+          </h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
+            compelling visuals that do most of the marketing for you.
+          </p>
+
+          <a href="#">LEARN MORE</a>
+        </div>
+      </div>
+      <div style="height: 600;">
+        <img id="image-transform" src="./images/desktop/image-transform.jpg">
+      </div>
+
+      <div style="height: 600;">
+        <img src="./images/desktop/image-stand-out.jpg">
+      </div>
+
+      <div id="letras">
+        <div id="nb" style="grid-column: 2/3; grid-row: 2/3; padding: 15px;">
+          <h2>
+            Stand out to the right audience
+          </h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
+          </p>
+          <a href="#">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="cerezagrid">
+        <img style="position: absolute;
+        height: auto;
+        object-fit: cover;
+        z-index: -1;" src="./images/desktop/image-graphic-design.jpg">
+        <div style="grid-column: 2/3; grid-row: 2/3; text-align: center;">
+          <h3>Graphic Design
+          </h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential client's attention.
+          </p>
+        </div>
+      </div>
+
+      <div class="cerezagrid">
+
+        <img style="position: absolute;
+          height: auto;
+          object-fit: cover;
+          z-index: -1;" src="./images/desktop/image-photography.jpg">
+
+        <div style="grid-column: 2/3; grid-row: 2/3; text-align: center;">
+          <h3>
+            Photography
+          </h3>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials" style="width: 1440px; display: block;">
+      <h4>CLIENT TESTIMONIALS
+      </h4>
+      <div style="display: flex; justify-content: center; padding: 0px 190px;">
+        <div style="display: inline-flex; text-align: center; padding-bottom: 120px;">
+          <div class="client">
+            <img id="emily" src="./images/image-emily.jpg">
+            <p>
+              We put our trust in Sunnyside and they delivered,
+              making sure our needs were met and deadlines were always hit.
+            </p>
+            <h6>Emily R.
+            </h6>
+            <sub class="pemily">
+              Marketing Director
+            </sub>
+          </div>
+          <div class="client">
+            <img id="emily" src="./images/image-thomas.jpg">
+            <p>
+              Sunnyside´s enthusiasm coupled with their keen interest in our brand's success made it a satisfying and
+              enjoyable experience.
+            </p>
+            <h6>
+              Thomas S.
+            </h6>
+            <sub class="pemily">Chief Operating Officer
+            </sub>
+          </div>
+          <div class="client">
+            <img id="emily" src="./images/image-jennie.jpg">
+            <p>
+              Incredible end result! Our sales increased over 4000%
+              when we worked with Sunnyside. Highly recommended!
+            </p>
+            <h6 style="padding-top: 35px;">Jennie F.
+            </h6>
+            <sub class="pemily">Business Owner
+            </sub>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr;">
+      <img class="imgfooter" src="./images/desktop/image-gallery-milkbottles.jpg">
+      <img class="imgfooter" src="./images/desktop/image-gallery-orange.jpg">
+      <img class="imgfooter" src="./images/desktop/image-gallery-cone.jpg">
+      <img class="imgfooter" src="./images/desktop/image-gallery-sugarcubes.jpg">
+    </section>
+  </main>
+
+  <footer>
+    <h7>sunnyside</h7>
+    <div style="display: flex; justify-content: center;">
+      <div style="display: inline-flex;">
+        <a style="padding: 0px 25px;" href="#">About</a>
+        <a style="padding: 0px 25px;" href="#">Services</a>
+        <a style="padding: 0px 25px;" href="#">Projects</a>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; padding: 70px 0px ;">
+      <div style="display: inline-flex;">
+        <a href="#"><img style="" class="footerimg" src="./images/icon-facebook.svg" >
+        </a> 
+        <a href="#"><img style="" class="footerimg" src="./images/icon-instagram.svg" >
+        </a>
+        <a href="#"><img style="" class="footerimg" src="./images/icon-twitter.svg" >
+        </a> 
+        <a href="#"><img style="" class="footerimg" src="./images/icon-pinterest.svg">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
