@@ -215,12 +215,13 @@ footer a:hover{
     opacity: none;
 }
 
-.footerimg{
+.fa-brands{
     padding: 0px 12px;
+    color: #287062;
     
 }
 
-.footerimg:hover{
+.fa-brands:hover{
     color: white;
 }
 
